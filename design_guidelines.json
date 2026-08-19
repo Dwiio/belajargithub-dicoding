@@ -1,0 +1,285 @@
+{
+  "project_identity": {
+    "name": "ClapClip",
+    "tagline": "One Video. Endless Content.",
+    "positioning": "Turn Long Videos Into Short Content With AI.",
+    "archetype": "PERFORMANCE_PRO_DARK",
+    "vibe": "Minimal, elegant, dark-first, futuristic, precision studio tool, creator-focused",
+    "theme": "dark",
+    "quality_benchmark": "Commercial SaaS worth Rp15.000.000+"
+  },
+  "typography": {
+    "font_family_pairing": {
+      "headings": "'Outfit', -apple-system, BlinkMacSystemFont, sans-serif",
+      "body": "'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif",
+      "mono_data": "'JetBrains Mono', monospace"
+    },
+    "font_weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800
+    },
+    "hierarchy": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.08]",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight leading-snug",
+      "h3_subsection": "text-xl sm:text-2xl font-semibold tracking-tight",
+      "h4_card": "text-lg font-semibold tracking-tight",
+      "body_lg": "text-lg text-slate-300 leading-relaxed",
+      "body_md": "text-base text-slate-400 leading-normal",
+      "body_sm": "text-sm text-slate-400 leading-normal",
+      "caption": "text-xs font-medium uppercase tracking-wider text-slate-500",
+      "mono_metric": "font-mono font-bold tracking-tight text-white"
+    }
+  },
+  "color_palette": {
+    "background": {
+      "base": "#0B0C10",
+      "surface_1": "#12141C",
+      "surface_2": "#1A1C28",
+      "surface_3": "#242738",
+      "overlay": "rgba(11, 12, 16, 0.85)"
+    },
+    "borders": {
+      "subtle": "rgba(255, 255, 255, 0.07)",
+      "medium": "rgba(255, 255, 255, 0.14)",
+      "glow": "rgba(124, 58, 237, 0.4)",
+      "accent": "rgba(139, 92, 246, 0.3)"
+    },
+    "primary": {
+      "violet_base": "#7C3AED",
+      "violet_bright": "#8B5CF6",
+      "violet_light": "#A78BFA",
+      "violet_glow": "rgba(124, 58, 237, 0.25)",
+      "text_on_primary": "#FFFFFF"
+    },
+    "secondary": {
+      "blue_violet": "#4F46E5",
+      "indigo_glow": "rgba(79, 70, 229, 0.2)",
+      "slate_dark": "#1E293B"
+    },
+    "status": {
+      "success": "#10B981",
+      "success_glow": "rgba(16, 185, 129, 0.2)",
+      "warning": "#F59E0B",
+      "warning_glow": "rgba(245, 158, 11, 0.2)",
+      "error": "#EF4444",
+      "error_glow": "rgba(239, 68, 68, 0.2)",
+      "viral_super": "#10B981",
+      "viral_high": "#8B5CF6",
+      "viral_medium": "#F59E0B"
+    },
+    "text": {
+      "primary": "#F8FAFC",
+      "secondary": "#94A3B8",
+      "muted": "#64748B",
+      "accent": "#C4B5FD"
+    }
+  },
+  "surface_strategies": {
+    "card_dark_pro": "bg-[#12141C] border border-white/[0.08] hover:border-violet-500/40 rounded-xl transition-all duration-200 shadow-[0_4px_20px_rgba(0,0,0,0.5)]",
+    "glass_nav": "bg-[#0B0C10]/80 backdrop-blur-xl border-b border-white/[0.08] z-50",
+    "editor_panel": "bg-[#12141C] border border-white/[0.08] rounded-xl overflow-hidden",
+    "timeline_surface": "bg-[#0E0F16] border border-white/[0.06] rounded-lg",
+    "modal_overlay": "bg-black/70 backdrop-blur-md z-50"
+  },
+  "score_badge_treatment": {
+    "concept": "Viral Potential Score (0-100) indicator badge",
+    "styles": {
+      "super_viral": {
+        "range": "85-100",
+        "badge_bg": "bg-emerald-500/10 text-emerald-400 border border-emerald-500/30",
+        "ring_color": "#10B981",
+        "label": "Super Viral 🚀"
+      },
+      "high_viral": {
+        "range": "70-84",
+        "badge_bg": "bg-violet-500/10 text-violet-300 border border-violet-500/30",
+        "ring_color": "#8B5CF6",
+        "label": "High Potential 🔥"
+      },
+      "moderate_viral": {
+        "range": "50-69",
+        "badge_bg": "bg-amber-500/10 text-amber-400 border border-amber-500/30",
+        "ring_color": "#F59E0B",
+        "label": "Solid Hook ⚡"
+      }
+    },
+    "visual_render": "SVG circular progress indicator with numeric value inside + tag badge"
+  },
+  "component_styling": {
+    "buttons": {
+      "primary": "bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white font-semibold py-2.5 px-5 rounded-lg shadow-lg shadow-violet-600/25 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]",
+      "secondary": "bg-white/[0.06] hover:bg-white/[0.1] text-white border border-white/10 font-medium py-2.5 px-5 rounded-lg transition-all duration-200",
+      "ghost": "text-slate-300 hover:text-white hover:bg-white/[0.05] py-2 px-3 rounded-lg transition-colors",
+      "icon": "p-2 text-slate-400 hover:text-white hover:bg-white/[0.08] rounded-lg transition-colors"
+    },
+    "inputs": {
+      "text": "bg-[#1A1C28] border border-white/10 focus:border-violet-500 text-white placeholder-slate-500 rounded-lg px-4 py-2.5 outline-none transition-all duration-200 focus:ring-2 focus:ring-violet-500/20",
+      "youtube_hero_input": "w-full bg-[#12141C] border border-violet-500/30 focus:border-violet-500 text-white placeholder-slate-500 rounded-xl px-5 py-4 text-base outline-none shadow-[0_0_30px_rgba(124,58,237,0.15)] transition-all"
+    },
+    "badges": {
+      "default": "px-2.5 py-1 text-xs font-semibold rounded-md bg-white/[0.08] text-slate-300 border border-white/10",
+      "accent": "px-2.5 py-1 text-xs font-semibold rounded-md bg-violet-500/20 text-violet-300 border border-violet-500/30"
+    },
+    "cards": {
+      "clip_card": "group relative bg-[#12141C] border border-white/[0.08] hover:border-violet-500/40 rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(0,0,0,0.6)]"
+    }
+  },
+  "layout_blueprints": {
+    "landing_page": {
+      "sections": [
+        "Navigation header (Logo, Features, How It Works, Pricing, FAQ, Login CTA, Start Free CTA)",
+        "Hero Section: Bold Headline 'One Video. Endless Content.', Subtitle, YouTube URL Input with sample video pills, 'Generate Clips' CTA, and an interactive App Dashboard Preview Showcase with floating AI score tags",
+        "Social Proof Banner: 'Trusted by 10,000+ YouTubers, Podcasters & Agencies' with minimalist creator metrics",
+        "How It Works (3-step visual workflow: 1. Paste YouTube URL -> 2. AI Magic Highlight & Smart Reframe -> 3. Export 10+ Viral Clips & Content Pack)",
+        "Core Capabilities Grid (Bento Style): AI Highlight Detection, Viral Score, Smart 9:16 Reframe, Dynamic Captions, Full Content Pack (Title, Hook, Hashtags, Thumbnail Text), Brand Kit Styling",
+        "Interactive Before/After Showcase: 16:9 Long-form video comparison slider into high-converting vertical 9:16 short with dynamic captions",
+        "Creator Use Cases (YouTubers, Podcasters, Coaches, Agencies)",
+        "Pricing Section (Rupiah Pricing: Free Rp 0, Creator Rp 249.000/mo, Pro Rp 599.000/mo, Agency Rp 1.499.000/mo with monthly/annual toggle)",
+        "FAQ Accordion Section",
+        "CTA Footer & Navigation Links"
+      ]
+    },
+    "app_dashboard": {
+      "sidebar": {
+        "logo": "ClapClip with violet bolt icon",
+        "items": [
+          {"name": "Dashboard", "icon": "LayoutDashboard", "path": "/app"},
+          {"name": "Create Clips", "icon": "Video", "path": "/app/create"},
+          {"name": "My Projects", "icon": "FolderKanban", "path": "/app/projects"},
+          {"name": "All Clips", "icon": "Film", "path": "/app/clips"},
+          {"name": "Content Packs", "icon": "Package", "path": "/app/content-packs"},
+          {"name": "Templates", "icon": "Sparkles", "path": "/app/templates"},
+          {"name": "Brand Kit", "icon": "Palette", "path": "/app/brand-kit"},
+          {"name": "Settings", "icon": "Settings", "path": "/app/settings"}
+        ],
+        "usage_meter_widget": "Shows remaining minutes counter (e.g. 45 / 120 mins used) with Upgrade button"
+      },
+      "header": {
+        "breadcrumbs": "Current section indicator",
+        "quick_create_button": "Paste YouTube Link",
+        "user_profile_dropdown": "User avatar, plan tier (PRO), credits, Logout button"
+      }
+    },
+    "stage_processing_screen": {
+      "concept": "Stage-based AI pipeline processing with dynamic progress indicators",
+      "stages": [
+        {"stage": 1, "title": "Fetching YouTube Video & Transcribing Audio", "icon": "Download"},
+        {"stage": 2, "title": "AI Highlight & Hook Detection", "icon": "Brain"},
+        {"stage": 3, "title": "Smart Active Speaker Reframing (16:9 -> 9:16)", "icon": "Crop"},
+        {"stage": 4, "title": "Generating Dynamic Animated Captions", "icon": "Subtitles"},
+        {"stage": 5, "title": "Synthesizing Viral Score & Content Pack", "icon": "Sparkles"}
+      ],
+      "visuals": "Animated glowing ring, current stage progress bar (0-100%), real-time logs terminal toggle, estimated time remaining counter"
+    },
+    "results_page": {
+      "top_bar": "Project Title, Original Video Duration, Total Clips Detected (e.g., 12 Clips), Export All Button, Batch Actions",
+      "filters": "Category tabs (All, High Potential >85, Hooks, Q&A, Stories), Sort dropdown (Viral Score, Duration, Time in Video)",
+      "grid": "Grid of Clip Cards with video thumbnail preview, hover auto-play/preview, duration badge, Viral Potential Score badge, AI Hook quote, quick 'Open Editor' and 'Export' buttons"
+    },
+    "video_editor": {
+      "layout": "4-pane professional studio grid",
+      "left_tools_panel": "Tabs: Captions (Styles, Colors, Fonts, Animations), Crop/Reframe (Auto Speaker, Center, Custom 9:16/1:1), B-Roll/Overlays, Audio/Music, Templates",
+      "center_preview": "9:16 vertical phone viewport with real-time video playback, draggable caption overlays, active speaker bounding box toggle",
+      "bottom_timeline": "Multi-track timeline slider with Video track, Audio waveform, Caption segments, Highlight markers, Trim handles, Play/Pause, Timestamp counter",
+      "right_settings": "Clip Details, AI Hook & Virality breakdown, Caption Text editing line-by-line, Export Preset selection (1080p, 60fps, Burn-in captions)"
+    },
+    "content_pack_dashboard": {
+      "features": "Generates 5 ready-to-post assets per clip: AI Video Title, Viral Hook Sentence, Social Caption with Emojis, Hashtag Cloud, Suggested Thumbnail Text & CTA. Includes 'Copy All' and 'Export JSON/Text' buttons"
+    },
+    "brand_kit": {
+      "features": "Custom font uploader/selector, Primary & Secondary Accent Colors, Watermark/Logo overlay setup, Custom Caption preset templates"
+    },
+    "templates_library": {
+      "presets": [
+        "Alex Hormozi Style (Bold Yellow/Green, Heavy Stroke, Emphasized Keywords)",
+        "Ali Abdaal Style (Clean White/Blue, Subtle Animations, Elegant Sans)",
+        "Devin Jey Style (Neon Purple Gradient, Dynamic Bouncing Words)",
+        "Podcast Spotlight (Dark Backdrop, Waveform Bar, Speaker Highlight)"
+      ]
+    },
+    "export_flow": {
+      "modal": "Quality (720p, 1080p Ultra HD), Aspect Ratio (9:16 TikTok/Reels/Shorts, 1:1 Instagram Square, 16:9 Landscape), Burn-in subtitles toggle, Render progress bar, Download MP4 button"
+    }
+  },
+  "pricing_in_rupiah": {
+    "free": {
+      "name": "Free Starter",
+      "price": "Rp 0",
+      "period": "forever",
+      "credits": "30 mins video / month",
+      "features": ["Watermarked exports", "Standard 720p export", "AI Highlight detection", "Basic captions"]
+    },
+    "creator": {
+      "name": "Creator",
+      "price": "Rp 249.000",
+      "period": "per bulan",
+      "credits": "180 mins video / month",
+      "badge": "Popular",
+      "features": ["No watermark", "1080p HD export", "Smart 9:16 Auto-reframe", "Full AI Content Packs", "Custom Caption Styles", "Fast AI Processing"]
+    },
+    "pro": {
+      "name": "Pro Studio",
+      "price": "Rp 599.000",
+      "period": "per bulan",
+      "credits": "600 mins video / month",
+      "badge": "Best Value",
+      "features": ["Everything in Creator", "Brand Kit integration", "4K Ultra HD Export", "Priority AI Queue", "Export All Batch Download", "API & Webhook Access"]
+    },
+    "agency": {
+      "name": "Agency",
+      "price": "Rp 1.499.000",
+      "period": "per bulan",
+      "credits": "2,000 mins video / month",
+      "features": ["Everything in Pro", "Unlimited Team Seats", "Custom Templates Generator", "Dedicated Account Manager", "Custom SLA & Invoice"]
+    }
+  },
+  "media_assets": {
+    "sample_videos": [
+      {
+        "title": "How I Built a $10M SaaS in 12 Months",
+        "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "duration": "42:15",
+        "thumbnail": "https://images.unsplash.com/photo-1559523161-0fc0d8b38a7a?crop=entropy&cs=srgb&fm=jpg&w=800&q=85",
+        "creator": "Tech Founder Podcast"
+      },
+      {
+        "title": "The Future of AI & Content Creation 2026",
+        "youtube_url": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+        "duration": "28:40",
+        "thumbnail": "https://images.unsplash.com/photo-1589903308904-1010c2294adc?crop=entropy&cs=srgb&fm=jpg&w=800&q=85",
+        "creator": "Studio Talks"
+      },
+      {
+        "title": "10 Creator Habits for Explosive Growth",
+        "youtube_url": "https://www.youtube.com/watch?v=L_LUpnjgPso",
+        "duration": "19:05",
+        "thumbnail": "https://images.unsplash.com/photo-1673767297241-f072cfefa0cd?crop=entropy&cs=srgb&fm=jpg&w=800&q=85",
+        "creator": "Creator Mindset"
+      }
+    ],
+    "avatars": [
+      "https://images.unsplash.com/photo-1673767298248-b128f17f89af?crop=entropy&cs=srgb&fm=jpg&w=150&q=85",
+      "https://images.unsplash.com/photo-1676380362680-85260af12dca?crop=entropy&cs=srgb&fm=jpg&w=150&q=85",
+      "https://images.pexels.com/photos/14772071/pexels-photo-14772071.jpeg?auto=compress&cs=tinysrgb&w=150"
+    ]
+  },
+  "general_ui_ux_guidelines": {
+    "test_id_rule": "Every button, input, tab, navigation link, card, and actionable control MUST have a descriptive data-testid attribute in kebab-case format. E.g., data-testid='generate-clips-button', data-testid='youtube-url-input', data-testid='viral-score-badge-1'.",
+    "theme_rule": "Enforce dark theme by default using dark class on html element or default dark color tokens.",
+    "no_transparent_overlays": "Headers, floating bars, and dropdown menus must use backdrop-blur + semi-opaque surfaces (e.g. bg-[#0B0C10]/80 backdrop-blur-xl), never fully transparent background.",
+    "hover_contrast": "Interactive states must explicitly declare contrast text colors, e.g. hover:bg-violet-600 hover:text-white.",
+    "responsive_design": "Mobile-first grids, responsive sidebar collapses into slide-over drawer on smaller screens."
+  },
+  "instructions_to_main_agent": [
+    "1. Build the frontend app using React, Tailwind CSS, Lucide Icons, and Shadcn primitives.",
+    "2. Make sure all pages specified in layout_blueprints are accessible and interactive.",
+    "3. Provide mock JWT authentication flow (login, register, stored token in localStorage, user profile context).",
+    "4. Implement real interactive state transitions: entering a YouTube link initiates the 5-stage processing screen, leading into the results page with clip cards.",
+    "5. Ensure the Video Editor is fully functional with tool panels, interactive 9:16 canvas preview, multi-track timeline control, caption style switcher, and export trigger.",
+    "6. Apply data-testid to every interactive component across the entire app."
+  ]
+}
